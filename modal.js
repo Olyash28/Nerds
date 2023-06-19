@@ -1,8 +1,8 @@
-const write = document.querySelector(".write-us-btn");
+const writeBtn = document.querySelector(".write-us-btn");
 const popup = document.querySelector(".popup");
 const closePopup = document.querySelector(".popup-btn");
 
-write.addEventListener("click", function () {
+writeBtn.addEventListener("click", function () {
     popup.classList.add("popup-show");
 });
 
